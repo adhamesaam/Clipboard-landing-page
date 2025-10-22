@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 18px;
+}
+
+.site {
+  margin: 10px;
+  padding: 10px;
+}
+
+.hero {
+  margin: 15px 0 5px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero_title {
+  margin: 10px;
+  padding: 10px;
+}
+
+.hero_lead {
+  margin: 10px;
+  padding: 10px;
+}
+
+.hero_cta {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.download_btn {
+  margin: 5px;
+}
+
+.hero_support {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 0 0;
+}
+
+.hero_subtitle {
+  margin: 10px;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.feature_image {
+  margin-right: 100px;
+}
+
+.features_list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+  margin: 5px;
+  list-style: none;
+}
+
+.feature_title {
+  margin: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.feature_description {
+  margin: 5px 5px 30px;
+  padding: 5px;
+}
